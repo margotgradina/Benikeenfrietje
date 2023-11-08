@@ -1,5 +1,8 @@
 #root {
   max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -39,4 +42,35 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.inputform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.inputfield {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1vh;
+  height: 2rem;
+  padding-left: 0.5rem;
+  border-radius: 10px;
+  border: 0px solid;
+  width: 19rem;
+}
+
+.inputbutton {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  text-align: center;
+  text-justify: distribute;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 2rem;
 }
